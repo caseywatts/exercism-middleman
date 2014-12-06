@@ -1,3 +1,5 @@
+    I think it's important that we have a clear birds-eye view of the major steps. It's okay if instructions are elsewhere as long as we link to it clearly like with big buttons below.
+
 # Try It Out!
 
 1. Make an account on this site

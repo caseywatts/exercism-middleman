@@ -1,3 +1,6 @@
+    This page is mostly just the about page, but I took the "inception" note from the current "Getting Started" page, I think something like that's appropriate here :)
+
+
 # About
 
 ## How it Started
