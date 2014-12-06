@@ -1,7 +1,8 @@
     The content here is really sketchy'd-out still, still working on this.
 
-Exercism
-Exercise + Exorcism
+    The changes being made on this site are informed by user research, see https://github.com/exercism/website/issues/14
+
+Exercism = Exercise + Exorcism
 
 <div class="row">
 <div class="col-md-5">
