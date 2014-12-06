@@ -5,6 +5,11 @@
 3. Do an exercise!
 4. Submit, check out others' code
 
+If you having trouble getting started, we'd love to help!
+
+<a href="http://help.exercism.io/" class="btn btn-default">Help</a>
+
+
 ## 1. Make an account on this site
 If you haven't yet, make an account here:
 
@@ -28,7 +33,12 @@ As an example, I'm in the folder `~/exercism/ruby/bob` and I see SOME FILES. The
 
 To get your programming environment set up for this environment see LINKTODOCS.
 
+Submit your first working copy even if you're not proud of it, to show your improvement!
 Do multiple iterations until you're satisfied
+
+<a href="http://help.exercism.io/fetching-exercises.html" class="btn btn-default">Fetching Exercises</a>
+
+<a href="http://help.exercism.io/submitting-exercises.html" class="btn btn-default">Submitting Exercises</a>
 
 ## 4. Code Review
 This is done on the exercism.io website.
