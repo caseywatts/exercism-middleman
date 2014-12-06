@@ -52,44 +52,61 @@ The changes being made on this site are informed by user research, see https://g
 <p>Exercism = Exercise + Exorcism</p>
 
 <div class="row">
+  <div class="col-md-3 well">
+    <p>"One particularly well-kept secret is that looking at someone's code with an eye towards finding ways of improving it can teach you more about writing readable code than receiving feedback on your own code."</p>
+  </div>
+  <div class="col-md-3 well">
+    <p>Doing this forces you to think about why you make the trade-offs that you do, what in the code you are reacting to, why you are reacting to it, and how you might improve it.</p>
+
+  </div>
+  <div class="col-md-3 well">
+    <p>There is rarely only one good solution to a problem. Asking questions and articulating your thoughts about these small problems can change your thinking about the issues you face in the code bases you work in on a day-to-day basis.</p>
+
+  </div>
+  <div class="col-md-3 well">
+    <p>By repeating this process you will:</p>
+
+    <ol>
+      <li>Share while discussing how YOU solved the problem</li>
+      <li>Learn from others as you discover how they solved the same problem</li>
+      <li>Gain experience through repeated practice solving problems</li>
+    </ol>
+  </div>
+
+</div>
+<div class="row">
   <div class="col-md-5">
     <h2 id="complete-coding-exercises">Complete Coding Exercises</h2>
 
+    <ul>
+      <li>CHALLENGE - You are given coding exercise with detailed README and a testing suite. Complete the challenge in Test-Driven-Development fashion - Red-Green-Refactor! Do this on your own computer using your own tools.</li>
+      <li>SUBMIT iterations of your code to the website via the command line. Each iteration of code you submit is viewable on the site, with a place to have a conversation next to it.</li>
+      <li>EXCHANGE FEEDBACK with others who have submitted their code. Based on their comments, revise your code and resubmit.</li>
+    </ul>
+
+    <div class="well">
+      <p>People usually spend 30-120 minutes passing the tests the first time, and often just as long refactoring and improving coding style. People often go through 3-9 revisions</p>
+    </div>
+
     <p><img src="img/home-try-it.png" /></p>
-
-    <p>Fetch the current exercises using the command-line client. Exercises consisting of a test suite and a README, in one of the languages listed to the right.</p>
-
-    <p>Write code using your usual tools. Make the tests pass. Keep the code as simple, readable, and expressive as you can.</p>
-
-    <p>Submit the code to the website. Other people who have completed the same assignment provide a code review, ask questions, and discuss trade-offs with you.</p>
-
-    <p>Based on their comments, revise your code and resubmit.</p>
-
-    <p>what languages !
-what testing frameworks ?
-how do I get started with language x?
-how long do people spend on an exercise? (like 5 min or 5 days?)
-how many “iterations” are gone through often? (range?)</p>
 
   </div>
   <div class="col-md-5">
     <h2 id="get-and-give-feedback">Get and Give Feedback</h2>
 
+    <ul>
+      <li>After you're satisfied with a submission and you've submitted it, check out other peoples’ solutions
+        <ul>
+          <li>Someone else's solution may inspire you! Change your code, submit a revision, and let them know they helped!</li>
+          <li>If you're not sure why they used one thing over another, ask! They may have a good reason they'd be happy to share. Or, just as likely, they hadn't thought of the other option!</li>
+        </ul>
+      </li>
+      <li>Both constructive and supportive feedback are both valuable, try to give both. Everyone is here to get and give feedback, it's expected :)</li>
+      <li>Join a community/group! You can get your friends and/or community to come together and review each others' code. You can also just make friends with strangers! [Can I find communities listed?]</li>
+    </ul>
+
     <p><img src="img/conversation.jpg" /></p>
 
-    <p>from who? are they nice?
-what does it look/feel like?
-formal communities/groups are optional but cool
-What do they look like?
-How do I find one? (are they discoverable from the site? maybe not right now.)</p>
-
-    <p>Think deeply about how code can be improved.</p>
-
-    <p>One particularly well-kept secret is that looking at someone's code with an eye towards finding ways of improving it can teach you more about writing readable code than receiving feedback on your own code.</p>
-
-    <p>Doing this forces you to think about why you make the trade-offs that you do, what in the code you are reacting to, why you are reacting to it, and how you might improve it.</p>
-
-    <p>There is rarely only one good solution to a problem. Asking questions and articulating your thoughts about these small problems can change your thinking about the issues you face in the code bases you work in on a day-to-day basis.</p>
   </div>
   <div class="col-md-2">
     <h2 id="languages">Languages</h2>
@@ -117,40 +134,23 @@ How do I find one? (are they discoverable from the site? maybe not right now.)</
   </div>
 </div>
 
-<div class="row">
-  <h1 id="what-does-exercismio-lookfeel-like">What does Exercism.io look/feel like?</h1>
-  <div class="col-md-6">
-    <h2 id="locally">Locally</h2>
-    <p>Command line tool =&gt; go to exercise folder
+<!-- <div class="row">
+# What does Exercism.io look/feel like? -->
+<!-- <div class="col-md-6">
+## Locally
+Command line tool => go to exercise folder
 Readme + tests; run the tests
 TDD to write working code first draft
 encourage them to submit this first draft for reference, knowing it’s raw and unrefactored and that’s expected! should we / do we suggest that?
 Refactor the code (do we link to refactoring techniques already?)
 submit the revision (!!)
-(bonus! is there a command line shortcut to open the website to the exercise we’re working on? that’d be sweeeet)</p>
-  </div>
-  <div class="col-md-6">
-    <h2 id="website--community-interaction">Website &amp; community interaction</h2>
-    <p>After submitting your code, check out other peoples’ solutions, give them feedback (this is great time for it, while you’re thinking about it!)
-website can auto-suggest this? (I bet it does already!)
-Different option: Dashboard of open exercises that are already completed</p>
-  </div>
-</div>
+(bonus! is there a command line shortcut to open the website to the exercise we’re working on? that’d be sweeeet)
+</div> -->
+<!-- <div class="col-md-6">
+## Website & community interaction
 
-<div class="row">
-  <h1 id="misc">Misc</h1>
-  <div class="col-md-6">
-    <p>Here's how it works:
-1. You fetch some challenges in the form of README documents. These include associated test suites
-2. Then write code in order to make the tests pass
-3. Submit the code and begin the conversation with others</p>
-
-    <p>By repeating this process you will:
-1. Share while discussing how YOU solved the problem
-2. Learn from others as you discover how they solved the same problem
-3. Gain experience through repeated practice solving problems</p>
-  </div>
-</div>
+</div> -->
+<!-- </div> -->
 
         </div>
 
